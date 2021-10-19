@@ -9,8 +9,210 @@
 </head>
 
 <body>
-    <p>Airbnb-Clone</p>
-
+    <!-- navigation Bar -->
+    <div class="navBar">
+        <div class="headerIconDiv">
+            <img class="headerIcon" src="airbnb/airbnb.png" />
+        </div>
+        <div class="headerLinks">
+            <ul class="links">
+                <li><a href="#">Gastgeber werden</a></li>
+                <li><a href="#">Hilfe</a></li>
+                <li><a href="#">Registrieren</a></li>
+                <li><a href="#">Log-in</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Search header -->
+    <div class="header">
+        <div id="search" align="center">
+            <p class="headertext">Buche individuelle Unterkünfte und Entdeckungen überall auf der Welt.</p>
+            <div>
+                <form id="searchId">
+                    <input autocomplete="off" type="text" name="search" id="searchField" class="searchField"
+                        placeholder="Gib z.B. 'London' ein">
+                    <button onkeydown="ENTER" type="submit" id="searchButton" class="searchButton">suchen</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Bauch-bereich der Seite -->
+    <div align="center">
+        <!-- Airbnb entdecken -->
+        <div class="siteBody">
+            <div>
+                <p class="discoverAirbnbText">Entdecke Airbnb</p>
+                <div class="discoverContainer">
+                    <div class="discoverLinks">
+                        <a href="#">
+                            <img id="idDiscoverImg" src="airbnb/hotel-2.jpg">
+                            <span class="disText">Unterkünfte</span>
+                        </a>
+                    </div>
+                    <div class="discoverLinks">
+                        <a href="#">
+                            <img id="idDiscoverImg" src="airbnb/activity.jpg"><span class="disText">Entdeckungen</span>
+                        </a>
+                    </div>
+                    <div class="discoverLinks">
+                        <a href="#"> <img id="idDiscoverImg" src="airbnb/restaurant.jpg">
+                            <span class="disText">Restaurants</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Airbnb-Plus -->
+        <div class="siteBody">
+            <p class="discoverAirbnbText">Wir stellen Airbnb-Plus vor</p>
+            <div class="airbnbPlusContainer">
+                <p id="airbnbPlusText">Eine neue Auswahl von Unterkünften, <br> deren Komfort und Qualität verifiziert
+                    wurden.</p>
+                <div class="airbnbPlusButton">
+                    <a href="#">
+                        <span>
+                            Airbnb-Plus-Unterkünfte entdecken
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Unterkünfte rund um die Welt -->
+        <div class="siteBody">
+            <p class="discoverAirbnbText">Unterkünfte rund um die Welt</p>
+            <div class="roundWorldContainer">
+                <div class="abs1">
+                    <img src="airbnb/hotel-2.jpg">
+                    <p class="abs1Head">GANZE WOHNUNG ·KOPENHAGEN</p>
+                    <p class="abs1Body">Sonniges Penthouse mit 5 Balkonen</p>
+                    <p class="abs1Price">206€ pro Nacht</p>
+                    <p class="abs1Ratings">★★★★★ 320</p>
+                </div>
+                <div class="abs2">
+                    <img src="airbnb/hotel-3.jpg">
+                    <p class="abs2Head">GANZES HAUS ·FUJIEDA</p>
+                    <p class="abs2Body">Yui Valley-Traditional House</p>
+                    <p class="abs2Price">89€ pro Nacht</p>
+                    <p class="abs2Ratings">★★★★★ 220</p>
+                </div>
+                <div class="abs3">
+                    <img src="airbnb/hotel-4.jpg">
+                    <p class="abs3Head">GANZE WOHNUNG ·BANGKOK</p>
+                    <p class="abs3Body">Designer Loft Bangkok Silom</p>
+                    <p class="abs3Price">64€ pro Nacht</p>
+                    <p class="abs3Ratings">★★★★★ 183</p>
+                </div>
+                <div class="abs4">
+                    <img src="airbnb/hotel-5.jpg">
+                    <p class="abs4Head">GANZE WOHNUNG ·KOTOR</p>
+                    <p class="abs4Body">Waterfront with extraordinary view</p>
+                    <p class="abs4Price">36€ pro Nacht</p>
+                    <p class="abs4Ratings">★★★★★ 92</p>
+                </div>
+            </div>
+            <div class="roundWorldContainer">
+                <div class="abs1">
+                    <img src="airbnb/hotel-4.jpg">
+                    <p class="abs1Head">HÖHLE ·CHANIA</p>
+                    <p class="abs1Body">Luxurious stone villa in Crete</p>
+                    <p class="abs1Price">52€ pro Nacht</p>
+                    <p class="abs1Ratings">★★★★★ 101</p>
+                </div>
+                <div class="abs2">
+                    <img src="airbnb/hotel-5.jpg">
+                    <p class="abs2Head">GANZES HAUS ·VEDADO</p>
+                    <p class="abs2Body">PalacetedelVedado</p>
+                    <p class="abs2Price">380€ pro Nacht</p>
+                    <p class="abs2Ratings">★★★★★ 111</p>
+                </div>
+                <div class="abs3">
+                    <img src="airbnb/hotel-2.jpg">
+                    <p class="abs3Head">CAMPINGBUS/WOHNMOBIL ·ALOZAINA</p>
+                    <p class="abs3Body">Airstream 'Glamping' in Andalucia!</p>
+                    <p class="abs3Price">128€ pro Nacht</p>
+                    <p class="abs3Ratings">★★★★★ 60</p>
+                </div>
+                <div class="abs4">
+                    <img src="airbnb/hotel-3.jpg">
+                    <p class="abs4Head">HÖHLE ·SANTORINI</p>
+                    <p class="abs4Body">Hector Cave House</p>
+                    <p class="abs4Price">258€ pro Nacht</p>
+                    <p class="abs4Ratings">★★★★★ 185</p>
+                </div>
+            </div>
+            <div class="roundWorldContainer">
+                <p class="showAll">Alle anzeigen (mehr als 2000) > </p>
+            </div>
+        </div>
+        <hr>
+        <!-- Footer-header -->
+        <div class="siteBody">
+            <div class="footerHeader">
+                <div class="abs1">
+                    <form id="settings">
+                        <select>
+                            <option value="Deutsch">Deutsch</option>
+                            <option value="English">English</option>
+                        </select>
+                        <select>
+                            <option value="Euro">Euro</option>
+                            <option value="Dollar">Dollar</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="abs2 ">
+                    <div class="footerHearderHeadlineDiv">
+                        <span class="FooterHeaderHeadline">Airbnb</span>
+                    </div>
+                    <p>Karriere</p>
+                    <p>Presse</p>
+                    <p>Richtlinien</p>
+                    <p>Hilfe</p>
+                    <p>Kulturelle Vielfalt</p>
+                    <p>Impressung</p>
+                </div>
+                <div class="abs3 ">
+                    <div class="footerHearderHeadlineDiv">
+                        <span class="FooterHeaderHeadline">Entdecken</span>
+                    </div>
+                    <p>Vertrauen & Sicherheit</p>
+                    <p>Reiseguthaben</p>
+                    <p>Aribnb Citizen</p>
+                    <p>Geschäftsreisen</p>
+                    <p>Reiseführer</p>
+                    <p>Airbnbmag</p>
+                </div>
+                <div class="abs4">
+                    <div class="footerHearderHeadlineDiv">
+                        <span class="FooterHeaderHeadline">Gastgeben</span>
+                    </div>
+                    <p>Warum Gastgeben?</p>
+                    <p>Gastfreundschaft</p>
+                    <p>Sei ein guter Gastgeben</p>
+                    <p>Community Center</p>
+                </div>
+            </div>
+        </div>
+        <div class="siteBody">
+            <hr>
+            <div class="footer">
+                <div class="footerLeft">
+                    <img src="airbnb/airbnb2.png">
+                    <p>&copy; Airbnbg, Inc.</p>
+                </div>
+                <div class="footerRight">
+                    <ul class="https://meet.google.com/uxd-zroz-pxjv">
+                        <li><img src="airbnb/instagram.png" class="social"></li>
+                        <li><img src="airbnb/twitter.png" class="social"></li>
+                        <li><img src="airbnb/facebook.png" class="social"></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Datenschutz</a></li>
+                        <li><a href="#">Nutzungsbedingungen</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
