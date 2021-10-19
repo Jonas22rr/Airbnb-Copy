@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Montserrat" Verdana;
+  font-weight: 500;
+}
+
+/* navigation */
+.navBar {
+  height: 80px;
+}
+.headerIcon {
+  float: left;
+}
+
+.headerLinks {
+  float: right;
+}
+
+.links li {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.links li a {
+  text-decoration: none;
+  font-family: "Montserrat", Verdana;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  padding: 25px;
+}
+.links li a:visited {
+  color: black;
+}
+
+.links a:hover {
+  border-bottom: black solid 2px;
+}
+
+.headerIcon {
+  height: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.headerIconDiv {
+  float: left;
+  width: 90px !important;
+}
+
+.searchImg {
+  width: 100%;
+  height: 700px;
+}
+
+/* header */
+
+.header {
+  height: 625px;
+  width: 100%;
+  background-image: url(airbnb/header.jpg);
+  background-size: cover;
+  display: flex;
+}
+
+.headertext {
+  font-family: "Montserrat", Verdana;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  margin: 10px;
+}
+
+#search {
+  width: 950px;
+  margin: auto;
+}
+
+.searchBar {
+  height: 70px;
+}
+
+#searchField {
+  width: 400px;
+  height: 50px;
+  padding-left: 60px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  border: none;
+  border-color: white;
+  margin: 0px;
+  outline: none !important;
+}
+
+.searchField:focus {
+  border-color: white;
+}
+
+input[type="text"] {
+  background-image: url(airbnb/magnifier.png);
+  background-position: 13px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+#searchId {
+  width: 570px;
+  background-color: white;
+}
+
+#searchButton {
+  height: 40px;
+  background-color: #ec6663;
+  color: white;
+  border: none;
+  margin: 0px;
+  border-radius: 10px;
+  width: 80px;
+}
+
+/* Bauchbereich der Seite */
+/* discover */
+.siteBody {
+  margin-top: 50px;
+  width: 1200px;
+}
+
+.discoverAirbnbText {
+  text-align: left;
+  font-size: 27px;
+  font-family: "Montserrat", Verdana;
+  font-weight: 600px;
+  color: rgb(71, 71, 71);
+}
+
+.discoverContainer {
+  height: 100px;
+  display: block;
+  margin: 20px 0px;
+}
+
+#idDiscoverImg {
+  width: 130px;
+  height: 80px;
+  padding: 10px;
+}
+
+.disText {
+  text-decoration: none;
+  float: right;
+  padding-top: 41px;
+  padding-bottom: 41px;
+  padding-right: 20px;
+  padding-left: 10px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+  color: #585858;
+}
+
+.discoverLinks {
+  float: left;
+  margin-bottom: 0px;
+  padding: 0px;
+  margin-right: 20px;
+  height: 100px;
+  box-shadow: 0px 0px 10px #999999;
+}
+
+/* Airbnb-Plus */
+
+.AirbnbPlusImg {
+  background: url(airbnb/hotel-3.jpg);
+}
+
+.airbnbPlusContainer {
+  height: 500px;
+  margin: 20px 0px;
+  background: url(airbnb/airbnbplus.jpg);
+}
+
+#airbnbPlusText {
+  text-align: left;
+  display: flex;
+  padding: 40px;
+  font-family: "Monterrat", Verdana;
+  font-size: 20px;
+  font-weight: 500;
+  color: #383838;
+}
+
+.airbnbPlusButton {
+  background-color: white;
+  float: left;
+  margin-left: 40px;
+  box-shadow: 0px 0px 10px #3b3b3b;
+  border-radius: 15px;
+}
+
+.airbnbPlusButton a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 25px;
+}
+
+.airbnbPlusButton a span {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+  color: #585858;
+}
+
+/* Unterkünfte rund um die Welt  */
+
+.roundWorldContainer {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.roundWorldContainer img {
+  width: 275px;
+  border-radius: 10px;
+}
+.abs1 {
+  margin-right: 33px;
+  width: 275px;
+  text-align: left;
+}
+
+.abs1Head {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 600;
+  color: #252525;
+  margin: 5px 0px;
+}
+
+.abs1Body {
+  font-family: "Montserrat", Verdana;
+  font-size: 17px;
+  font-weight: 800;
+  color: #474747;
+  margin: 5px 0px;
+}
+
+.abs1Price {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+
+.abs1Ratings {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+
+.abs2 {
+  margin-right: 33px;
+  width: 275px;
+  text-align: left;
+}
+
+.abs2Head {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 600;
+  color: #252525;
+  margin: 5px 0px;
+}
+
+.abs2Body {
+  font-family: "Montserrat", Verdana;
+  font-size: 17px;
+  font-weight: 800;
+  color: #474747;
+  margin: 5px 0px;
+}
+
+.abs2Price {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+
+.abs2Ratings {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+
+.abs3 {
+  margin-right: 33px;
+  width: 275px;
+  text-align: left;
+}
+
+.abs3Head {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 600;
+  color: #252525;
+  margin: 5px 0px;
+}
+
+.abs3Body {
+  font-family: "Montserrat", Verdana;
+  font-size: 17px;
+  font-weight: 800;
+  color: #474747;
+  margin: 5px 0px;
+}
+
+.abs3Price {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+
+.abs3Ratings {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+
+.abs4 {
+  width: 275px;
+  text-align: left;
+}
+
+.abs4Head {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 600;
+  color: #252525;
+  margin: 5px 0px;
+}
+
+.abs4Body {
+  font-family: "Montserrat", Verdana;
+  font-size: 17px;
+  font-weight: 800;
+  color: #474747;
+  margin: 5px 0px;
+}
+
+.abs4Price {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+
+.abs4Ratings {
+  font-family: "Montserrat", Verdana;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+
+.showAll {
+  font-family: "Montserrat", Verdana;
+  font-size: 17px;
+  font-weight: 500;
+  color: #388188;
+}
+
+/* Footer-header  */
+
+.footerHeader {
+  display: flex;
+}
+
+#settings select {
+  display: flex;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 50px;
+  font-family: "Montserrat", Verdana;
+  font-size: 17px;
+  font-weight: 600;
+  color: #383838;
+}
+
+.footerHearderHeadlineDiv {
+  margin-bottom: 10px;
+}
+
+.FooterHeaderHeadline {
+  text-align: left;
+  font-family: "Montserrat", Verdana;
+  font-size: 14px;
+  font-weight: 700;
+  color: #252525;
+  padding-bottom: 10px;
+}
+
+.footerHeader div p {
+  font-family: "Montserrat", Verdana;
+  font-size: 13px;
+  color: #585858;
+  margin: 5px 0px;
+}
+
+.marLeft20 {
+  padding-left: 100px;
+}
+
+/* Footer */
+
+.footer {
+  height: 120px;
+  margin-top: 20px;
+}
+
+.footerleft {
+  display: inline-block;
+}
+
+.footerLeft img {
+  float: left;
+  width: 40px;
+  margin: 0px 20px;
+}
+
+.footerLeft p {
+  float: left;
+  margin-top: 10px;
+  font-family: "Montserrat", Verdana;
+  font-size: 15px;
+  font-weight: 500;
+  color: #252525;
+}
+
+.footerRight {
+  float: right;
+}
+
+.footerRight img {
+  width: 15px;
+  margin: 0px 10px;
+}
+
+.legalnav {
+  margin-top: 10px;
+}
+
+.legalnav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.legalnav li a {
+  text-decoration: none;
+  font-family: "Montserrat", Verdana;
+  font-size: 15px;
+  font-weight: 500;
+  color: #252525;
+}
